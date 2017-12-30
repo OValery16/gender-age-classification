@@ -1,6 +1,6 @@
 # gender/age classification
 
-##The architecture of this project is the following:
+## The architecture of this project is the following:
 
 * ageWeights: weight for the age model
 * build_predicator.py: script to build the age/gender graph (it also call "modelGender.py")
