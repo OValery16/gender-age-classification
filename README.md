@@ -2,18 +2,18 @@
 
 ##The architecture of this project is the following:
 
-    * ageWeights: weight for the age model
-    * build_predicator.py: script to build the age/gender graph (it also call "modelGender.py")
-    * detected_faces: example of extracted faces (it was mostly done for debugging purpose)
-    * freeze_graph: the yolo model + the weight (i froze the network)
-    * genderWeights: gender for the age model (the branch for the gender)
-    * image: examples of image and their respective output
-    * log: it 's where I put the tensorboard log
-    * modelGender.py: script to build the gender graph 
-    * model.py: helper for building the inception model
-    * prediction_age_gender.py: the main python script
-    * utils.py: useful functions
-    * video: examples of video and its output
+* ageWeights: weight for the age model
+* build_predicator.py: script to build the age/gender graph (it also call "modelGender.py")
+* detected_faces: example of extracted faces (it was mostly done for debugging purpose)
+* freeze_graph: the yolo model + the weight (i froze the network)
+* genderWeights: gender for the age model (the branch for the gender)
+* image: examples of image and their respective output
+* log: it 's where I put the tensorboard log
+* modelGender.py: script to build the gender graph 
+* model.py: helper for building the inception model
+* prediction_age_gender.py: the main python script
+* utils.py: useful functions
+* video: examples of video and its output
 
 ## You can run our predicator with the command:
 
@@ -38,10 +38,12 @@ Several prediction errors could happen in the following case:
 ## Note:
 
 In deep learning, it important to know that the training set should cover sufficiently the scenarios that you want to score later on. If the classifier sees fully new concepts or contexts it is likely to perform badly. Just a few examples:
-    * You train only on images from a constraint environment (say, indoor) and try to score images from a different environment (outdoor).
-    * You train only on images of a certain make and try to score others.
-    * Your test images have largely different characteristics, e.g. with respect to illumination, background, color, size, position, etc.
-    * Your test images contain entirely new concepts.
+
+* You train only on images from a constraint environment (say, indoor) and try to score images from a different environment (outdoor).
+* You train only on images of a certain make and try to score others.
+* Your test images have largely different characteristics, e.g. with respect to illumination, background, color, size, position, etc.
+* Your test images contain entirely new concepts.
+
 As a result, we invite the reader to fine tune our model in case it makes some prediction errors with their test set (see previous section). Another parameter that ca be adjusted is size of the face that is extracted (go to "utils.py" and search for 'getFacesList' and adjust the size of maxDist)
 	
 	
