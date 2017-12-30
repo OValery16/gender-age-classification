@@ -23,6 +23,9 @@
 
 * Note: For the sake of simplicity, I use Keras for the YOLO implementation, but I usetensorflow for the other graphs.
 
+* Note2: Don't forget to download the weight and to put them in th corresponding folder (ageWeights/freeze_graph/genderWeights)
+	* This link to each of them is available in the folder
+
 ## Know prediction errors
 
 Several prediction errors could happen in the following case:
@@ -47,7 +50,7 @@ In deep learning, it important to know that the training set should cover suffic
 As a result, we invite the reader to fine tune our model in case it makes some prediction errors with their test set (see previous section). Another parameter that ca be adjusted is size of the face that is extracted (go to "utils.py" and search for 'getFacesList' and adjust the size of maxDist)
 	
 	
-#The following pictures are example of input/output:
+# The following pictures are example of input/output:
 
 Input            |  Output
 :-------------------------:|:-------------------------:
