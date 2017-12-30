@@ -1,4 +1,4 @@
-# This model run on top of the INCEPTION_v3 model. The INCEPTION_v3 modelextract the image features, which are used by our classifier to extract the gender information (male/female).
+# This model run on top of the INCEPTION_v3 model. The INCEPTION_v3 modelextract the image features, which are used by our classifier to extract the gender information (male/female). This folder should contain the checkpoint files
 	
 # You can dowload these files with the following [link](https://drive.google.com/open?id=1a_-_9IqRtBcC0wJjrmnnaFAi4pFrmFLX)
 

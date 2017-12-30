@@ -286,7 +286,7 @@ def decode_netout(netout, obj_threshold, nms_threshold, anchors, nb_class):
     
     return boxes
 
-def decode_netout2( netout,labels,anchors, obj_threshold=0.6, nms_threshold=0.3):
+def decode_netout2( netout,labels,anchors, obj_threshold=0.4, nms_threshold=0.3):
         grid_h, grid_w, nb_box = netout.shape[:3]
         nb_class=len(labels)
         boxes = []
