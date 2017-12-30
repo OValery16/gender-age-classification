@@ -45,13 +45,13 @@ Input            |  Output
 
 Several prediction errors could happen in the following case:
 * The face is too far from the camera
-** The picture used in the training mostly includes people that are relatively closed to the camera
+	* The picture used in the training mostly includes people that are relatively closed to the camera
 * The picture includes many character that are very closed to each other
-** The picture used in the training mostly includes people are not too closed for each other
+	* The picture used in the training mostly includes people are not too closed for each other
 * The face is very closed to the border
-** Our system consists in the combinasion of 2 neural networks. The first one extract the faces as a square image, the second one resize them to the correct input size and predicts the corresponding label of each of them. Howeve if the face is closed to the picture's border, the extracted face may not be a square size image, wich force our system to distord the image in order to make it fit in our model. It can lead to pottential errors.
+	* Our system consists in the combinasion of 2 neural networks. The first one extract the faces as a square image, the second one resize them to the correct input size and predicts the corresponding label of each of them. Howeve if the face is closed to the picture's border, the extracted face may not be a square size image, wich force our system to distord the image in order to make it fit in our model. It can lead to pottential errors.
 * The lighting condition are very different from our training set
-** The picture used in the test set should have similar distribution as the validation set.
+	* The picture used in the test set should have similar distribution as the validation set.
 
 
 
