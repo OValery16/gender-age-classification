@@ -61,7 +61,7 @@ Input            |  Output
 ![](/image/webcam_test.jpg?raw=true)  |  ![](/image/webcam_test_detected.jpg?raw=true)
 ![](/image/big_bang_theory4.jpg?raw=true)  |  ![](/image/big_bang_theory4_detected.jpg?raw=true)
 ![](/image/big_bang_theory2.jpg?raw=true)  |  ![](/image/big_bang_theory2_detected.jpg?raw=true)
-![](/image/big_bang_theory3.jpg?raw=true)  |  ![](/image/big_bang_theory3_detected.jpg?raw=true)
+![](/image/big_bang_theory5.jpg?raw=true)  |  ![](/image/big_bang_theory5_detected.jpg?raw=true)
 ![](/image/friends.jpg?raw=true)  |  ![](/image/friends_detected.jpg?raw=true)
 ![](/image/game-of-thrones.jpg?raw=true)  |  ![](/image/game-of-thrones_detected.jpg?raw=true)
 ![](/image/how_I_met_your_mother.jpg?raw=true)  |  ![](/image/how_I_met_your_mother_detected.jpg?raw=true)
