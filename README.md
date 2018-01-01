@@ -49,8 +49,13 @@ In deep learning, it important to know that the training set should cover suffic
 
 As a result, we invite the reader to fine tune our model in case it makes some prediction errors with their test set (see previous section). Another parameter that ca be adjusted is size of the face that is extracted (go to "utils.py" and search for 'getFacesList' and adjust the size of maxDist)
 	
-	
+* Each label is written like gender, (age_interval)	
+	* The exact age cannot be guessed without large training dataset (which we don't have)
+	* Instead we guess the age intervale
+		
 # The following pictures are example of input/output:
+
+
 
 Input            |  Output
 :-------------------------:|:-------------------------:
