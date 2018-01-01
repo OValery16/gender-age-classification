@@ -59,7 +59,7 @@ Input            |  Output
 ![](/image/webcam.jpg?raw=true)  |  ![](/image/webcam_detected.jpg?raw=true)
 ![](/image/olivier.jpg?raw=true)  |  ![](/image/olivier_detected.jpg?raw=true)
 ![](/image/webcam_test.jpg?raw=true)  |  ![](/image/webcam_test_detected.jpg?raw=true)
-![](/image/big_bang_theory.jpg?raw=true)  |  ![](/image/big_bang_theory_detected.jpg?raw=true)
+![](/image/big_bang_theory4.jpg?raw=true)  |  ![](/image/big_bang_theory4_detected.jpg?raw=true)
 ![](/image/big_bang_theory2.jpg?raw=true)  |  ![](/image/big_bang_theory2_detected.jpg?raw=true)
 ![](/image/big_bang_theory3.jpg?raw=true)  |  ![](/image/big_bang_theory3_detected.jpg?raw=true)
 ![](/image/friends.jpg?raw=true)  |  ![](/image/friends_detected.jpg?raw=true)
