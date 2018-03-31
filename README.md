@@ -1,5 +1,7 @@
 # gender/age classification
 
+Pour exécuter le script ```python prediction_age_gender.py``` en modifiant le lien de la photo dans ```image_path```
+
 ## The architecture of this project is the following:
 
 * ageWeights: weight for the age model
